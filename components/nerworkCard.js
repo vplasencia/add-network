@@ -20,6 +20,11 @@ export default function NetworkCard({ network }) {
                   chainId: `0x${parseInt(network.chainId).toString(16)}`,
                   chainName: network.chainName,
                   rpcUrls: network.rpcUrls,
+                  nativeCurrency: {
+                    symbol: network.nativeCurrency.symbol,
+                    decimals: 18,
+                  },
+                  blockExplorerUrls: network.blockExplorerUrls,
                 },
               ],
             });
