@@ -1,0 +1,9 @@
+.title {
+  @apply font-semibold mr-1;
+}
+.addNetworkBtn {
+  @apply mt-5 hover:text-slate-100 text-orange-600 border-2 transition-colors duration-150 border-orange-600 font-semibold px-5 py-3 hover:bg-gradient-to-r hover:from-orange-600 hover:to-red-600 rounded-md;
+}
+.explorerUrl {
+  @apply text-blue-400 hover:underline;
+}
