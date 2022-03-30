@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const GITHUB_LINK = "";
+const GITHUB_LINK = "https://github.com/vplasencia/add-network";
 
 export default function Header() {
   return (

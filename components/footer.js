@@ -1,4 +1,4 @@
-const GITHUB_LINK = "";
+const GITHUB_LINK = "https://github.com/vplasencia/add-network";
 
 export default function Footer() {
   return (
