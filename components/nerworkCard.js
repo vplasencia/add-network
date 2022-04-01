@@ -58,7 +58,8 @@ export default function NetworkCard({ network }) {
         </div>
         <div>
           <span className={style.title}>Chain ID:</span>
-          <span>{network.chainId}</span>
+          <span className="mr-1">{network.chainId}</span>
+          <span>(Hex: {`0x${parseInt(network.chainId).toString(16)}`})</span>
         </div>
         <div>
           <span className={style.title}>Currency Symbol:</span>
