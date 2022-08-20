@@ -37,6 +37,16 @@ const networks = [
     blockExplorerUrls: ["https://explorer.pops.one/"],
     faucetUrls:["https://faucet.pops.one/"]
   },
+  {
+    chainId: "1666900000",
+    chainName: "Harmony Devnet",
+    rpcUrls: ["https://api.s0.ps.hmny.io/"],
+    nativeCurrency: {
+      symbol: "ONE",
+    },
+    blockExplorerUrls: ["https://explorer.ps.hmny.io/"],
+    faucetUrls:["http://dev.faucet.easynode.one/"]
+  },
 ];
 
 export default networks;
