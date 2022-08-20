@@ -20,7 +20,7 @@ const networks = [
   },
   {
     chainId: "1666600000",
-    chainName: "Harmony Mainnet Shard 0",
+    chainName: "Harmony Mainnet",
     rpcUrls: ["https://api.harmony.one"],
     nativeCurrency: {
       symbol: "ONE",
@@ -29,7 +29,7 @@ const networks = [
   },
   {
     chainId: "1666700000",
-    chainName: "Harmony Testnet Shard 0",
+    chainName: "Harmony Testnet",
     rpcUrls: ["https://api.s0.b.hmny.io"],
     nativeCurrency: {
       symbol: "ONE",
